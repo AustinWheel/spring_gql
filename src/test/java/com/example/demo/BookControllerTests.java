@@ -28,21 +28,4 @@ public class BookControllerTests {
                     }
                 }
             """);
-    //     this.graphQlTester
-				// .documentName("bookDetails")
-				// .variable("id", "book-1")
-    //             .execute()
-    //             .path("bookById")
-    //             .matchesJson("""
-    //                 {
-    //                     "id": "book-1",
-    //                     "name": "Effective Java",
-    //                     "pageCount": 416,
-    //                     "author": {
-    //                       "firstName": "Joshua",
-    //                       "lastName": "Bloch"
-    //                     }
-    //                 }
-    //             """);
-    }
 }
